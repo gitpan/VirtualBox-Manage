@@ -1,0 +1,49 @@
+VirtualBox-Manage
+
+This module serves as a Perl API above the commandline programs available in the
+VirtualBox hardware emulation suite.
+
+Presently, this module exists purely as a proof of concept. It doesn't do much
+and performs only basic error checking.
+
+If interested in tracking development of this project, check out its homepage
+on Gitorious: http://gitorious.org/projects/virtualbox_manage .
+
+INSTALLATION
+
+To install this module, run the following commands:
+
+	perl Makefile.PL
+	make
+	make test
+	make install
+
+SUPPORT AND DOCUMENTATION
+
+After installing, you can find documentation for this module with the
+perldoc command.
+
+    perldoc VirtualBox::Manage
+
+You can also look for information at:
+
+    RT, CPAN's request tracker
+        http://rt.cpan.org/NoAuth/Bugs.html?Dist=VirtualBox-Manage
+
+    AnnoCPAN, Annotated CPAN documentation
+        http://annocpan.org/dist/VirtualBox-Manage
+
+    CPAN Ratings
+        http://cpanratings.perl.org/d/VirtualBox-Manage
+
+    Search CPAN
+        http://search.cpan.org/dist/VirtualBox-Manage/
+
+
+COPYRIGHT AND LICENCE
+
+Copyright (C) 2008 Christopher Nehren
+
+This program is free software; you can redistribute it and/or modify it
+under the same terms as Perl itself.
+
